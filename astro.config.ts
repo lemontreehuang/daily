@@ -25,11 +25,11 @@ import config from './src/site.config.ts'
 // https://astro.build/config
 export default defineConfig({
   // [Basic]
-  site: 'https://astro-pure.js.org',
+  site: 'https://lemontreehuang.github.io',
   // Deploy to a sub path
   // https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
-  // base: '/astro-pure/',
-  trailingSlash: 'never',
+  base: '/blog',
+  trailingSlash: 'always',
   // root: './my-project-directory',
   server: { host: true },
 
