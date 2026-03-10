@@ -28,8 +28,8 @@ export default defineConfig({
   site: 'https://lemontreehuang.github.io',
   // Deploy to a sub path
   // https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
-  base: '/daily/',
-  trailingSlash: 'always',
+  //base: '/daily/',
+  trailingSlash: 'never',
   // root: './my-project-directory',
   server: { host: true },
 
